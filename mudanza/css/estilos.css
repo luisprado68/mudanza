@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body{
+    background-color: #fff8e1 ;
+}
+.error{
+    background-color: #FF9185;
+    font-size: 12px;
+    padding: 10px;
+}
+.correcto{
+    background-color: #A0DEA7;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.amber.darken-4 span a{
+    font-family: 'Saira Stencil One', cursive;
+}
+
+p {
+    color: white;
+    height: 35px;
+}
+h6{
+    color: #fff;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+label {
+    color: #fff;
+}
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+    
+    border: 2px solid #fff;
+}
+[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+    border: 2px solid #fff;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    
+    border-bottom: 1px solid #fff;
+}
+[type="checkbox"]:checked+label:before {
+    
+    border-right: 2px solid #ff6f00 ;
+    border-bottom: 2px solid #ff6f00 ;
+}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: #ff6f00;
+}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid #ff6f00;
+}
+@media only screen and (max-width: 600px) {
+    nav .brand-logo{
+        font-size: 20px;
+        line-height: 1.5; 
+        padding:0;
+        
+    } 
+  }
+
+   .row #banner .col.offset-l1  {
+    
+    margin-bottom: 200px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+/*enviado*/
+.container.enviado{
+    height: 90vh;
+    min-width: none;
+}
+.container.enviado h5{
+    color: #fff;
+}
+.container.enviado p{
+    color: #fff;
+}
